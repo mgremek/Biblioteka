@@ -1,0 +1,2 @@
+C:\Users\Gremcio\Projects\BookStore\BookStore\obj\Debug\BookStore.csprojAssemblyReference.cache
+C:\Users\Gremcio\Projects\BookStore\BookStore\obj\Debug\BookStore.csproj.CoreCompileInputs.cache
