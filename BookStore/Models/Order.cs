@@ -11,11 +11,13 @@ namespace BookStore.Models
         public int ClientId { get; set; }
         public OrderStatus OrderStatus { get; set; }
             
-        public virtual Client  Client { get; set; }
-        public enum OrderStatus
-        {
-            
-
-        }
+        public virtual Client Client { get; set; }
+        List<OrderItem> OrderItems { get; set; }
+    }
+    public enum OrderStatus
+    {
+        New,
+        InProgress,
+        Completed
     }
 }
