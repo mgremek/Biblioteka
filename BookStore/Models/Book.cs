@@ -16,6 +16,7 @@ namespace BookStore.Models
         //public int MyProperty { get; set; }
         public string Description { get; set; }
         public int CategoryId { get; set; }
+        public bool Hidden { get; set; }
 
         public virtual Author Author { get; set; }
         public virtual Category Category { get; set; }
