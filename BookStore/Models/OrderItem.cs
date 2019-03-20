@@ -1,6 +1,6 @@
 ﻿namespace BookStore.Models
 {
-    internal class OrderItem
+    public class OrderItem
     {
         public int OrderItemId { get; set; }
         public int OrderId { get; set; }
