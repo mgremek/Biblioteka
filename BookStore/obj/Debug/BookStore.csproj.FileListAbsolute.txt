@@ -68,7 +68,6 @@ C:\Users\Gremcio\Projects\@@@c#\BookStore\BookStore\bin\System.Web.Webpages.Razo
 C:\Users\Gremcio\Projects\@@@c#\BookStore\BookStore\bin\System.Web.Helpers.xml
 C:\Users\Gremcio\Projects\@@@c#\BookStore\BookStore\bin\System.Web.Mvc.xml
 C:\Users\Gremcio\Projects\@@@c#\BookStore\BookStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Gremcio\Projects\@@@c#\BookStore\BookStore\obj\Debug\BookStore.csprojAssemblyReference.cache
 C:\Users\Gremcio\Projects\@@@c#\BookStore\BookStore\obj\Debug\BookStore.csproj.CoreCompileInputs.cache
 C:\Users\Gremcio\Projects\@@@c#\BookStore\BookStore\obj\Debug\BookStore.csproj.CopyComplete
 C:\Users\Gremcio\Projects\@@@c#\BookStore\BookStore\obj\Debug\BookStore.dll
