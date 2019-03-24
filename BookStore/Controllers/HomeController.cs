@@ -14,8 +14,10 @@ namespace BookStore.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            Category category = new Category();
-            booksContext.Authors.Add(new Author());
+            Category category = new Category() { CategoryName = "historyczna", IconFileName="historyczne.png"};
+            booksContext.Categories.Add(category);
+            booksContext.SaveChanges();
+            
             return View();
         }
     }
