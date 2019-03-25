@@ -1,21 +1,18 @@
-﻿using BookStore.Models;
+﻿using BookStore.Migrations;
+using BookStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Web;
 
 namespace BookStore.DAL
 {
-    public class BookInitializer : DropCreateDatabaseAlways<BooksContext>
+    public class BookInitializer : MigrateDatabaseToLatestVersion<BooksContext, Configuration>  //DropCreateDatabaseAlways<BooksContext> 
     {
-        protected override void Seed(BooksContext context)
-        {
-            SeedBooksData(context);
-            base.Seed(context);
-        }
 
-        private void SeedBooksData(BooksContext context)
+        public static void SeedBooksData(BooksContext context)
         {
             var categories = new List<Category>()
             {
@@ -27,7 +24,7 @@ namespace BookStore.DAL
                 new Category() { CategoryId=6, CategoryName="thriller/kryminał", IconFileName="thrillery.png" },
                 new Category() { CategoryId=7, CategoryName="literatura popularnonaukowa", IconFileName="popularnonaukowe.png" }
             };
-            categories.ForEach(k => context.Categories.Add(k));
+            categories.ForEach(k => context.Categories.AddOrUpdate(k));
             context.SaveChanges();
 
             var authors = new List<Author>()
@@ -41,7 +38,7 @@ namespace BookStore.DAL
                 new Author(){ AuthorId=7, FirstName="Stephen", Surname="Hawking"}
             };
 
-            authors.ForEach(a => context.Authors.Add(a));
+            authors.ForEach(a => context.Authors.AddOrUpdate(a));
             context.SaveChanges();
 
             var books = new List<Book>()
@@ -56,7 +53,7 @@ namespace BookStore.DAL
 
             };
 
-            books.ForEach(b => context.Books.Add(b));
+            books.ForEach(b => context.Books.AddOrUpdate(b));
             context.SaveChanges();
             
         }

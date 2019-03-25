@@ -29,7 +29,7 @@ namespace BookStore.DAL
         {
             base.OnModelCreating(modelBuilder);
             //wyłącza konwencje tworzenia liczb mnogich dla nazw w tabelach
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>(); 
         }
     }
 }
