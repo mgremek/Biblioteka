@@ -23,6 +23,7 @@ namespace BookStore.DAL
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            //wyłącza konwencje tworzenia liczb mnogich dla nazw w tabelach
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
     }
