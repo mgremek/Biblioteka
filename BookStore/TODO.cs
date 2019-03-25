@@ -7,7 +7,8 @@ namespace BookStore
 {
     public class TODO
     {
-        //DODAC ATRYBUTY DO KLAS MODELOWYCH
-        //dodac connstringa(na localdb wiec zainstaluj serwer)
+        //+DODAC ATRYBUTY DO KLAS MODELOWYCH
+        //+dodac connstringa(na localdb wiec zainstaluj serwer)
+        // pododawac przykladowe kategorie autorow i booksy
     }
 }

@@ -14,10 +14,7 @@ namespace BookStore.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            //Category category = new Category() { CategoryName = "historyczna", IconFileName="historyczne.png"};
-            //booksContext.Categories.Add(category);
-            //booksContext.SaveChanges();
-            
+            var CategoryList = booksContext.Categories.ToList();
             return View();
         }
     }

@@ -14,6 +14,11 @@ namespace BookStore.DAL
         {
 
         }
+
+        static BooksContext()
+        {
+            Database.SetInitializer<BooksContext>(new BookInitializer());
+        }
         public DbSet<Book> Books { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Ordeers { get; set; }
