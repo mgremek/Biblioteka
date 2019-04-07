@@ -1,0 +1,170 @@
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#logo
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo img
+{
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.header-right 
+{
+  float: right;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.header-right a
+{
+    padding: 15px;   
+    background-color: rgb(175, 174, 174);
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    border-radius: 4px;
+    font-weight: bold;
+}
+.header-right a:hover
+{
+    background-color: #14687D ;
+    color: white;
+}
+#navHorizontalBar
+{
+    height: 50px;
+    background-color: #333333;
+    margin: 0px;
+    border-radius: 4px;
+}
+#navHorizontalBar a
+{  
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 20px;
+    padding: 15px; 
+}
+#nav li
+{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+#koszyk
+{
+    float: right;
+    background-color: #14687D;
+    border-radius: 4px;
+    Height: 50px;
+}
+#koszyk a
+{
+    padding: 5px;
+}
+
+#basketIco img
+{
+    height: 50px;
+}
+#nav li a:hover 
+{
+  background-color: #111111;
+  border-radius: 4px;
+
+}
+#koszyk li a:hover
+{
+    background-color: #777777;
+    padding: 5px;
+}
+#nav li a {
+    float: left;
+    list-style: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+   
+  }
+#navSideBar
+{
+    clear: both;
+    background-color: rgb(185, 185, 185);
+    float: left;
+    width: 15%;
+    min-height: 640px;
+    border-radius: 4px;
+    margin-top:20px;
+    
+}
+#navSideBar ul
+{   
+    padding-inline-start: 10px;
+}
+#sideList li 
+{    
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+#sideList li a
+{
+    font-size: 15px;
+    color: #111111;
+    text-decoration: none;
+    padding: 10px 10px 10px 0px;
+    
+}
+#sideList li a:hover
+{
+    font-size: 15px;   
+    text-decoration: none;
+    color: white;
+    
+}
+#content
+{  
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 840px;
+    min-height: 620px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+#bestsellers
+{
+    height: 300px;
+    width: 840px;
+}
+#bestsellers img
+{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+#footer
+{
+    clear: both;
+    background-color: black;
+    color: white;
+}

@@ -96,11 +96,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\314478-32 %281%29.png" />
+    <Content Include="Content\314478-48.png" />
+    <Content Include="Content\booksImg.png" />
+    <Content Include="Content\booksImgheader2.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\cart-icon-28356.png" />
+    <Content Include="Content\novelty.png" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\wladca.jpg" />
+    <Content Include="Content\wladca.png" />
+    <Content Include="css\style.css" />
+    <Content Include="css\styleCat.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Prototype\categories.html" />
+    <Content Include="Prototype\index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
